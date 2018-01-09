@@ -1,0 +1,10 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+
+<StackLayout class="page">
+    <Button class="btn btn-primary" text="Read" (tap)="nfcHelper.read()"></Button>
+    <Button class="btn btn-primary" text="Remove" (tap)="nfcHelper.remove()"></Button>
+
+    <Button class="btn btn-primary" text="Goto" (tap)="goto()"></Button>
+</StackLayout>
